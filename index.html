@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cardvanta | Smart Wallet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="centered-title">Cardvanta 💳</h1>
+
+    <div id="search-section">
+      <label for="binInput">Card Identification</label>
+      <input
+        id="binInput"
+        type="text"
+        placeholder="Enter first 6-8 digits"
+        inputmode="numeric"
+        maxlength="8"
+      />
+      <button id="analyzeBtn">Analyze Card</button>
+      <p id="message"></p>
+    </div>
+
+    <div id="output"></div>
+
+    <div id="selection-area" style="display: none;">
+      <p id="step2-text"><strong>Step 2:</strong> Select your specific card below:</p>
+      <select id="cardSelect">
+        <option value="">-- Select Your Card --</option>
+      </select>
+    </div>
+
+    <div id="final-results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

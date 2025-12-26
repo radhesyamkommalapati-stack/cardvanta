@@ -1,0 +1,162 @@
+/* --- GLOBAL STYLES --- */
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: #0f172a; /* Deep dark blue-black background */
+  color: #e5e7eb;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  background: #020617; /* Solid Light Black Container */
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 150px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  height: fit-content;
+}
+
+/* Centering the title */
+.centered-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* --- FORM ELEMENTS --- */
+label {
+  display: block;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input, select {
+  width: 100%;
+  padding: 14px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+#analyzeBtn {
+  width: 100%;
+  padding: 14px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#analyzeBtn:hover {
+  background: #1d4ed8;
+}
+
+#message {
+  margin-top: 15px;
+  color: #fbbf24;
+  text-align: center;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+
+/* --- VERIFIED BOX (Green Border) --- */
+.verified-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #0f172a;
+  border: 2px solid #22c55e;
+  border-radius: 12px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.verified-text {
+  color: #22c55e;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.card-summary {
+  font-size: 1rem;
+  color: #f8fafc;
+  text-transform: uppercase;
+}
+
+/* --- RESULTS BOX (Blue Border) --- */
+.results-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #0f172a;
+  border: 2px solid #2563eb;
+  border-radius: 12px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.results-box h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.results-box ul {
+  padding-left: 20px;
+  margin: 15px 0;
+}
+
+.results-box li {
+  margin: 10px 0;
+  color: #cbd5e1;
+}
+
+/* --- ACTION BUTTONS --- */
+.action-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.primary-btn, .secondary-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.primary-btn { background: #2563eb; }
+.secondary-btn { background: #334155; }
+
+.divider {
+  height: 1px;
+  background: #334155;
+  margin: 25px 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
