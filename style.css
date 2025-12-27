@@ -1,7 +1,7 @@
 /* --- GLOBAL STYLES --- */
 body {
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  background: #0f172a; /* Deep dark blue-black background */
+  background: #0f172a;
   color: #e5e7eb;
   margin: 0;
   display: flex;
@@ -13,21 +13,29 @@ body {
 .container {
   width: 100%;
   max-width: 450px;
-  background: #020617; /* Solid Light Black Container */
+  background: #020617;
   padding: 30px;
   border-radius: 20px;
-  margin-top: 150px;
+  margin-top: 80px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
   height: fit-content;
 }
 
-/* Centering the title */
 .centered-title {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 2rem;
   color: #ffffff;
+}
+
+.app-description {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 500;
 }
 
 /* --- FORM ELEMENTS --- */
@@ -81,7 +89,7 @@ input:focus, select:focus {
   min-height: 1.2em;
 }
 
-/* --- VERIFIED BOX (Green Border) --- */
+/* --- VERIFIED BOX --- */
 .verified-box {
   margin-top: 20px;
   padding: 15px;
@@ -105,7 +113,7 @@ input:focus, select:focus {
   text-transform: uppercase;
 }
 
-/* --- RESULTS BOX (Blue Border) --- */
+/* --- RESULTS BOX --- */
 .results-box {
   margin-top: 20px;
   padding: 20px;
@@ -149,12 +157,6 @@ input:focus, select:focus {
 
 .primary-btn { background: #2563eb; }
 .secondary-btn { background: #334155; }
-
-.divider {
-  height: 1px;
-  background: #334155;
-  margin: 25px 0;
-}
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
