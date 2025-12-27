@@ -213,7 +213,7 @@ const binInput = document.getElementById("binInput");
 
         const localCheck = getLocalCardData(bin);
         if (localCheck.scheme === "unknown") {
-            showError("❌ Invalid Card Number", "Please enter a correct card number starting with 3, 4, 5, or 6.");
+            showError("❌ Invalid Card Number", "Please enter valid card number.");
             return;
         }
 
@@ -408,4 +408,5 @@ const binInput = document.getElementById("binInput");
     analyzeBtn.addEventListener("click", analyze);
     binInput.addEventListener("keypress", (e) => { if (e.key === "Enter") analyze(); });
 });	
+
 
