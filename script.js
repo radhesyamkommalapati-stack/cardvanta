@@ -74,9 +74,9 @@ const cardDB = [
 /* --- Scotiabank Canada Credit Cards --- */
 
 // PERSONAL - American Express (Scene+ Rewards)
-{ issuer:"Scotiabank", network:"amex", category:"personal", name:"Scotiabank Gold American Express Card", best:["🛒 6x points at Sobeys/FreshCo","🍽️ 5x points on dining & movies","🌍 No foreign transaction fees"] },
-{ issuer:"Scotiabank", network:"amex", category:"personal", name:"Scotiabank American Express Card", best:["🛍️ 3x points at Scene+ grocers","💳 No annual fee","🎭 2x points on entertainment"] },
-{ issuer:"Scotiabank", network:"amex", category:"personal", name:"Scotiabank Platinum American Express Card", best:["🛫 10 free lounge visits","📉 Low 9.99% interest rate","⭐ 2x points on all spending"] },
+{ issuer:"Scotiabank", network:"american express", category:"personal", name:"Scotiabank Gold American Express Card", best:["🛒 6x points at Sobeys/FreshCo","🍽️ 5x points on dining & movies","🌍 No foreign transaction fees"] },
+{ issuer:"Scotiabank", network:"american express", category:"personal", name:"Scotiabank American Express Card", best:["🛍️ 3x points at Scene+ grocers","💳 No annual fee","🎭 2x points on entertainment"] },
+{ issuer:"Scotiabank", network:"american express", category:"personal", name:"Scotiabank Platinum American Express Card", best:["🛫 10 free lounge visits","📉 Low 9.99% interest rate","⭐ 2x points on all spending"] },
 
 // PERSONAL - Visa (Travel & Scene+)
 { issuer:"Scotiabank", network:"visa", category:"personal", name:"Scotiabank Passport Visa Infinite Card", best:["🌍 No foreign transaction fees","🛫 6 free airport lounge visits","🛒 3x points at Sobeys/Safeway"] },
@@ -95,7 +95,7 @@ const cardDB = [
 
 // STUDENT
 { issuer:"Scotiabank", network:"visa", category:"student", name:"Scotiabank Scene+ Visa Card for Students", best:["🎓 No annual fee","📚 Build credit history","🛒 2x points at Sobeys/Safeway"] },
-{ issuer:"Scotiabank", network:"amex", category:"student", name:"Scotiabank American Express Card for Students", best:["🎓 No annual fee","🛍️ 3x points at Scene+ grocers","📚 Student rewards"] },
+{ issuer:"Scotiabank", network:"american express", category:"student", name:"Scotiabank American Express Card for Students", best:["🎓 No annual fee","🛍️ 3x points at Scene+ grocers","📚 Student rewards"] },
 { issuer:"Scotiabank", network:"visa", category:"student", name:"Scotia Momentum No-Fee Visa Card for Students", best:["🎓 Student cashback","🛒 1% on groceries & gas","💳 No annual fee"] },
 { issuer:"Scotiabank", network:"visa", category:"student", name:"Scotiabank Value Visa Card for Students", best:["🎓 Low interest for students","📉 Build credit safely"] },
 
@@ -224,39 +224,39 @@ const cardDB = [
 /* --- American Express US Credit Cards --- */
 
 // PERSONAL - Membership Rewards (Travel & Lifestyle)
-{ issuer:"Amex", network:"amex", category:"personal", name:"The Platinum Card®", best:["🛫 1,400+ Airport Lounges", "🏨 $200 Hotel Credit", "🎥 $240 Digital Entertainment Credit"] },
-{ issuer:"Amex", network:"amex", category:"personal", name:"American Express® Gold Card", best:["🍽️ 4x on Dining worldwide","🛒 4x at US Supermarkets","✈️ 3x on Flights"] },
-{ issuer:"Amex", network:"amex", category:"personal", name:"American Express® Green Card", best:["🚗 3x on Transit & Travel","🍽️ 3x on Dining","🛡️ CLEAR® Plus Credit"] },
-{ issuer:"Amex", network:"amex", category:"personal", name:"Centurion® Card (The Black Card)", best:["💎 Invite-only prestige","🤴 Personal Concierge","🛫 Ultimate airport luxury"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"The Platinum Card®", best:["🛫 1,400+ Airport Lounges", "🏨 $200 Hotel Credit", "🎥 $240 Digital Entertainment Credit"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"American Express® Gold Card", best:["🍽️ 4x on Dining worldwide","🛒 4x at US Supermarkets","✈️ 3x on Flights"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"American Express® Green Card", best:["🚗 3x on Transit & Travel","🍽️ 3x on Dining","🛡️ CLEAR® Plus Credit"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"Centurion® Card (The Black Card)", best:["💎 Invite-only prestige","🤴 Personal Concierge","🛫 Ultimate airport luxury"] },
 
 // PERSONAL - Cash Back (Blue Cash Series)
-{ issuer:"Amex", network:"amex", category:"personal", name:"Blue Cash Preferred® Card", best:["🛒 6% at US Supermarkets","📺 6% on US Streaming","⛽ 3% at US Gas Stations"] },
-{ issuer:"Amex", network:"amex", category:"personal", name:"Blue Cash Everyday® Card", best:["🛒 3% at US Supermarkets","💻 3% on US Online Retail","⛽ 3% at US Gas Stations"] },
-{ issuer:"Amex", network:"amex", category:"personal", name:"Cash Magnet® Card", best:["💵 Unlimited 1.5% Cash Back","💳 No annual fee"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"Blue Cash Preferred® Card", best:["🛒 6% at US Supermarkets","📺 6% on US Streaming","⛽ 3% at US Gas Stations"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"Blue Cash Everyday® Card", best:["🛒 3% at US Supermarkets","💻 3% on US Online Retail","⛽ 3% at US Gas Stations"] },
+{ issuer:"Amex", network:"american express", category:"personal", name:"Cash Magnet® Card", best:["💵 Unlimited 1.5% Cash Back","💳 No annual fee"] },
 
 // THIRD-PARTY - Delta Air Lines
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Delta SkyMiles® Reserve American Express Card", best:["🛫 Delta Sky Club Access","🎫 Annual Companion Certificate","🏎️ Priority Boarding"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Delta SkyMiles® Platinum American Express Card", best:["🎫 Annual Companion Certificate","🧳 First Checked Bag Free","✈️ 3x on Delta spend"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Delta SkyMiles® Gold American Express Card", best:["🧳 First Checked Bag Free","✈️ 2x on Delta & Dining","💳 $0 Intro Annual Fee"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Delta SkyMiles® Blue American Express Card", best:["✈️ 2x on Delta & Dining","💳 No annual fee"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Delta SkyMiles® Reserve American Express Card", best:["🛫 Delta Sky Club Access","🎫 Annual Companion Certificate","🏎️ Priority Boarding"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Delta SkyMiles® Platinum American Express Card", best:["🎫 Annual Companion Certificate","🧳 First Checked Bag Free","✈️ 3x on Delta spend"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Delta SkyMiles® Gold American Express Card", best:["🧳 First Checked Bag Free","✈️ 2x on Delta & Dining","💳 $0 Intro Annual Fee"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Delta SkyMiles® Blue American Express Card", best:["✈️ 2x on Delta & Dining","💳 No annual fee"] },
 
 // THIRD-PARTY - Hotel Groups (Hilton & Marriott)
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Marriott Bonvoy Brilliant® American Express® Card", best:["🏨 Platinum Elite Status","🎟️ 85k Free Night Award","🍴 $300 Dining Credit"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Marriott Bonvoy Bevy™ American Express® Card", best:["🏨 Gold Elite Status","⭐ 6x at Marriott properties"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Hilton Honors American Express Aspire Card", best:["🏨 Diamond Elite Status","✈️ $200 Flight Credit","🎟️ Annual Free Night Award"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Hilton Honors American Express Surpass® Card", best:["🏨 Gold Elite Status","🛒 6x at US Supermarkets/Gas","🍽️ 6x at US Restaurants"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Hilton Honors American Express Card", best:["🏨 Silver Elite Status","💳 No annual fee"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Marriott Bonvoy Brilliant® American Express® Card", best:["🏨 Platinum Elite Status","🎟️ 85k Free Night Award","🍴 $300 Dining Credit"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Marriott Bonvoy Bevy™ American Express® Card", best:["🏨 Gold Elite Status","⭐ 6x at Marriott properties"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Hilton Honors American Express Aspire Card", best:["🏨 Diamond Elite Status","✈️ $200 Flight Credit","🎟️ Annual Free Night Award"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Hilton Honors American Express Surpass® Card", best:["🏨 Gold Elite Status","🛒 6x at US Supermarkets/Gas","🍽️ 6x at US Restaurants"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Hilton Honors American Express Card", best:["🏨 Silver Elite Status","💳 No annual fee"] },
 
 // STUDENT (Note: Amex often suggests Blue Cash Everyday for students)
-{ issuer:"Amex", network:"amex", category:"student", name:"Blue Cash Everyday® (Student Friendly)", best:["🎓 3% back on Groceries/Online","📚 No annual fee","📈 Build credit with Amex"] },
+{ issuer:"Amex", network:"american express", category:"student", name:"Blue Cash Everyday® (Student Friendly)", best:["🎓 3% back on Groceries/Online","📚 No annual fee","📈 Build credit with Amex"] },
 
 // BUSINESS
-{ issuer:"Amex", network:"amex", category:"business", name:"The Business Platinum Card®", best:["💼 1.5x on large purchases (>$5k)","💻 $400 Dell Technologies Credit","🛫 Premium Lounge access"] },
-{ issuer:"Amex", network:"amex", category:"business", name:"American Express® Business Gold Card", best:["📊 4x on top 2 spending categories","💻 $240 Flexible Business Credit"] },
-{ issuer:"Amex", network:"amex", category:"business", name:"Blue Business® Plus Credit Card", best:["💼 2x points on all purchases","💳 No annual fee"] },
-{ issuer:"Amex", network:"amex", category:"business", name:"Blue Business Cash™ Card", best:["💵 2% cash back on all purchases","💳 No annual fee"] },
-{ issuer:"Amex", network:"amex", category:"business", name:"The Plum Card®", best:["📉 1.5% Early Pay Discount","🗓️ Up to 60 days to pay"] },
-{ issuer:"Amex", network:"amex", category:"third-party", name:"Amazon Business Prime American Express Card", best:["📦 5% back at Amazon/Whole Foods","🛒 2% at Gas Stations/Restaurants"] },
+{ issuer:"Amex", network:"american express", category:"business", name:"The Business Platinum Card®", best:["💼 1.5x on large purchases (>$5k)","💻 $400 Dell Technologies Credit","🛫 Premium Lounge access"] },
+{ issuer:"Amex", network:"american express", category:"business", name:"American Express® Business Gold Card", best:["📊 4x on top 2 spending categories","💻 $240 Flexible Business Credit"] },
+{ issuer:"Amex", network:"american express", category:"business", name:"Blue Business® Plus Credit Card", best:["💼 2x points on all purchases","💳 No annual fee"] },
+{ issuer:"Amex", network:"american express", category:"business", name:"Blue Business Cash™ Card", best:["💵 2% cash back on all purchases","💳 No annual fee"] },
+{ issuer:"Amex", network:"american express", category:"business", name:"The Plum Card®", best:["📉 1.5% Early Pay Discount","🗓️ Up to 60 days to pay"] },
+{ issuer:"Amex", network:"american express", category:"third-party", name:"Amazon Business Prime American Express Card", best:["📦 5% back at Amazon/Whole Foods","🛒 2% at Gas Stations/Restaurants"] },
 
 /* --- Capital One US Credit Cards --- */
 
@@ -310,6 +310,12 @@ const cardDB = [
 { issuer:"Citi", network:"mastercard", category:"third-party", name:"American Airlines AAdvantage® MileUp® Card", best:["✈️ 2x miles at Grocery stores","🛍️ Earn miles with no annual fee"] },
 { issuer:"Citi", network:"mastercard", category:"third-party", name:"Citi® / AAdvantage® Globe™ Mastercard®", best:["🎟️ 4 Admirals Club® passes yearly","✈️ International travel rewards"] },
 
+/* --- Citibank USA (Active Retail & Legacy Portfolio) --- */
+{ issuer:"Citi", network:"american express", category:"third-party", name:"Macy’s American Express® Card", best:["🛍️ 3% back at Gas Stations", "🍴 2% back at Restaurants", "🛒 1% back Everywhere else"] },
+{ issuer:"Citi", network:"american express", category:"third-party", name:"Bloomingdale’s American Express® Card", best:["👗 3 pts per $1 at Bloomingdale's", "🍴 2 pts per $1 at Restaurants", "🛡️ Amex network benefits"] },
+{ issuer:"Citi", network:"american express", category:"personal", name:"Citi® Dividend American Express® (Legacy)", best:["💵 5% back on rotating categories", "📉 Not for new applicants", "🛡️ Legacy Citi-Amex product"] },
+{ issuer:"Citi", network:"american express", category:"personal", name:"Citi® PremierPass® / AAdvantage® Amex® (Legacy)", best:["✈️ Earned miles for distance flown", "📉 Not for new applicants", "🛡️ Discontinued travel rewards"] },
+
 // PERSONAL - Cash Back & Retail (Co-branded)
 { issuer:"Citi", network:"visa", category:"third-party", name:"Costco Anywhere Visa® Card by Citi", best:["⛽ 4% on Gas & EV charging","🍽️ 3% on Restaurants & Travel","🛒 2% back at Costco"] },
 { issuer:"Citi", network:"visa", category:"third-party", name:"My Best Buy® Visa® Card", best:["💻 5% back at Best Buy","🛒 3% on Gas purchases","🍽️ 2% on Dining & Groceries"] },
@@ -323,6 +329,7 @@ const cardDB = [
 // BUSINESS
 { issuer:"Citi", network:"mastercard", category:"business", name:"Citi® / AAdvantage Business™ World Elite Mastercard®", best:["💼 2x miles on Telecommunications","✈️ 2x miles on American Airlines","🛡️ Business liability waiver"] },
 { issuer:"Citi", network:"visa", category:"business", name:"Costco Anywhere Visa® Business Card by Citi", best:["💼 4% back on business fuel","🛒 2% back on Costco business hauls"] },
+
 
 /* --- Discover US Credit Cards --- */
 
@@ -469,6 +476,7 @@ const bankNameMap = {
     "american express": "Amex", 
     "amex": "Amex", 
     "axp": "Amex",
+	"american express us consumer": "amex",
     
     "capital one": "Capital One", 
     "cap 1": "Capital One", 
