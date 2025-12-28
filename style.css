@@ -107,6 +107,15 @@ input, select {
   100% { opacity: 1; }
 }
 
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+.shake-animation {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+
 .spinner {
   display: inline-block;
   animation: pulse 1s infinite;
