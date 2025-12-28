@@ -50,10 +50,26 @@
       </div>
 
       <div id="card-selection-sub" style="display: none;">
-        <p><strong id="card-label">Step 3:</strong> Select your specific card:</p>
-        <select id="cardSelect">
-          <option value="">-- Select Your Card --</option>
-        </select>
+        <p><strong id="card-label">Step 3:</strong> Refine and select your card:</p>
+        <div style="display: flex; gap: 15px; align-items: flex-end; flex-wrap: wrap; margin-top: 10px;">
+          <div style="flex: 1; min-width: 140px;">
+            <label for="categorySelect">Category</label>
+            <select id="categorySelect">
+              <option value="" selected disabled>-- Select --</option>
+              <option value="all">All Cards</option>
+              <option value="personal">Personal</option>
+              <option value="business">Business</option>
+              <option value="student">Student</option>
+              <option value="third-party">Third-Party</option>
+            </select>
+          </div>
+          <div style="flex: 2; min-width: 200px;">
+            <label for="cardSelect">Specific Card</label>
+            <select id="cardSelect">
+              <option value="">-- Select Your Card --</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
 
